@@ -1,0 +1,25 @@
+
+.compensation {
+    color: green;
+}
+
+.GeicoTDP {
+    color: green;
+}
+
+.Geico {
+    color: green;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    color: black; 
+}
+
+
+
