@@ -1,6 +1,6 @@
 body {
-    background-color: blue;
-    color: white;
+    background-color: darkgray;
+    color: black;
 }
 
 .compensation {
@@ -18,10 +18,15 @@ body {
 
 .navbar li {
     display: inline;
-    color: black; 
+    color: white; 
 }
 
 
 a {
-    color: white;
+    color: black; 
+}
+
+header {
+    background-color: darkgray; 
+    color: black;
 }
