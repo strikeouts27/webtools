@@ -1,15 +1,53 @@
+
+a {
+    color: black; 
+}
+
+.AppleFigcaption {
+    color: white; 
+}
+
 body {
     background-color: darkgray;
     color: black;
 }
 
+.CodecademyFigCaption {
+    color: black; 
+};
+
+.CodeGeassFigCaption {
+    color: purple; 
+}
 .compensation {
     color: green;
+}
+
+.CSharpFigCaption {
+    color: purple; 
+}
+
+figcaption {
+    color: black;
 }
 
 .Geico {
     color: green;
 }
+
+.GeicoFigCaption {
+    color: green; 
+}
+
+header {
+    background-color: darkgray; 
+    color: black;
+}
+
+.JavaFigCaption {
+    color: orangered;
+}
+
 .navbar ul {
     list-style-type: none;
     padding: 0;
@@ -21,12 +59,43 @@ body {
     color: white; 
 }
 
-
-a {
-    color: black; 
+.NucampFigCaption {
+    color:purple; 
 }
 
-header {
-    background-color: darkgray; 
-    color: black;
+.PlanoTitleBoxingClubFigCaption {
+    color: red; 
 }
+
+.ParamoreFigCaption {
+    color:white; 
+}
+
+.PrestonCrestChurchofChristFigCaption {
+    color: white;
+}
+
+.TexasRangersFigCaption{
+    color: red;
+}
+
+.TheCaptainIsDeadFigCaption {
+    color: yellow;
+}
+
+.TheLastOfUsFigCaption {
+    color: white; 
+}
+
+
+.UTAFigCaption {
+    color: blue;
+}
+
+
+
+
+
+
+
+
