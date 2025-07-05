@@ -16,6 +16,7 @@ body {
 .CodecademyFigCaption {
     color: black; 
     font-weight: bold; 
+    font-size: 14px;
 };
 
 .CodeGeassFigCaption {
@@ -23,8 +24,9 @@ body {
     font-weight: bold;
 }
 .compensation {
-    color: green;
+    color: lawngreen;
     font-weight: bold;
+    font-size: 14px;
     
 }
 
@@ -39,12 +41,15 @@ figcaption {
 }
 
 .Geico {
-    color: green;
+    color: lawngreen;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .GeicoFigCaption {
-    color: green; 
+    color: lawngreen; 
     font-weight: bold;
+    font-size: 14px;
 }
 
 header {
