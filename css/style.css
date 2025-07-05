@@ -5,6 +5,7 @@ a {
 
 .AppleFigcaption {
     color: white; 
+    font-weight: bold;
 }
 
 body {
@@ -14,29 +15,41 @@ body {
 
 .CodecademyFigCaption {
     color: black; 
+    font-weight: bold; 
+    font-size: 14px;
 };
 
 .CodeGeassFigCaption {
     color: purple; 
+    font-weight: bold;
 }
 .compensation {
-    color: green;
+    color: lawngreen;
+    font-weight: bold;
+    font-size: 14px;
+    
 }
 
 .CSharpFigCaption {
     color: purple; 
+    font-weight: bold;
 }
 
 figcaption {
     color: black;
+    font-weight: bold;
 }
 
 .Geico {
-    color: green;
+    color: lawngreen;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .GeicoFigCaption {
-    color: green; 
+    color: lawngreen; 
+    font-weight: bold;
+    font-size: 14px;
 }
 
 header {
@@ -46,6 +59,8 @@ header {
 
 .JavaFigCaption {
     color: orangered;
+    font-weight: bold;
+
 }
 
 .navbar ul {
@@ -61,35 +76,45 @@ header {
 
 .NucampFigCaption {
     color:purple; 
+    font-weight: bold;
 }
 
 .PlanoTitleBoxingClubFigCaption {
     color: red; 
+    font-weight: bold;
 }
 
 .ParamoreFigCaption {
     color:white; 
+    font-weight: bold;
 }
 
 .PrestonCrestChurchofChristFigCaption {
     color: white;
+    font-size: bold;
 }
 
 .TexasRangersFigCaption{
     color: red;
+    font-size: bold;
 }
 
 .TheCaptainIsDeadFigCaption {
     color: yellow;
+    font-size: bold;
+    font-size: 18px;
 }
 
 .TheLastOfUsFigCaption {
     color: white; 
+    font-size: bold;
 }
 
 
 .UTAFigCaption {
     color: blue;
+    font-size: bold;
+
 }
 
 
