@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="contact" method="get" action="success.html">
+
+        <table>
+                <label for="fname"> First name: </label><br>
+                <input type="text" id="fname" name="fname"><br>
+                
+                <label for="lname"> Last name:</label><br> 
+                <input type="text" id="lname" name="lname"><br> 
+
+                <label for="phone" id="phone" name="phone">Phone:</label><br> 
+                <input type="text" id="phone" name="phone"><br> 
+
+                <label for="email" id="email" name="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br> 
+                
+                <fieldset>
+                    <legend>What programming languages did you want to study with our group?</legend>
+
+                    <input type="checkbox" id="HTML" name="languages" value="HTML">
+                    <label for="HTML">HTML</label><br> 
+
+                    <input type="checkbox" id="CSS" name="languages" value="CSS"> 
+                    <label for="CSS">CSS</label><br> 
+
+                    <input type="checkbox" id="javascript" name="languages" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+
+                    <input type="checkbox" id="python" name="languages" value="python">
+                    <label for="python">Python</label><br>
+
+                    <input type="checkbox" id="csharp" name="languages" value="csharp" checked>
+                    <label for="csharp">C#</label><br> 
+
+                    <input type="checkbox" id="java" name="languages" value="java">
+                    <label for="java">Java</label><br> 
+
+                    <input type="checkbox" id="SQL" name="SQL" value="SQL">
+                    <label for="SQL">SQL</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What days are you available for studying?</legend>
+
+                    <input type="checkbox" id="monday" name="days" value="monday">
+                    <label for="monday">Monday</label><br>
+
+                    <input type="checkbox" id="tuesday" name="days" value="tuesday">
+                    <label for="tuesday">Tuesday</label><br>
+
+                    <input type="checkbox" id="wednesday" name="days" value="wednesday">
+                    <label for="wednesday">Wednesday</label><br>
+
+                    <input type="checkbox" id="thursday" name="days" value="thursday">
+                    <label for="thursday">Thursday</label><br>
+
+                    <input type="checkbox" id="friday" name="days" value="friday">
+                    <label for="friday">Friday</label><br>
+
+                    <input type="checkbox" id="saturday" name="days" value="saturday">
+                    <label for="saturday">Saturday</label><br>
+
+                    <input type="checkbox" id="sunday" name="days" value="sunday">
+                    <label for="sunday">Sunday</label><br>
+
+                </fieldset>
+
+                <label for="about">Please go ahead and tell me about yourself and your programming journey and your goals and what you hope to achieve with this group:</label><br>
+                <textarea id="about" name="about" rows="6" cols="50" placeholder="Share your story here..."></textarea><br>
+
+        </table>
+
+                <button>Submit</button>
+                <button>Reset</button>
+    </form>
+
+    
+</body>
+</html>
