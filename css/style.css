@@ -41,6 +41,7 @@ figcaption {
 }
 
 .Geico {
+<<<<<<< Updated upstream
     color: lawngreen;
     font-weight: bold;
     font-size: 18px;
@@ -55,6 +56,15 @@ figcaption {
     color: lawngreen; 
     font-weight: bold;
     font-size: 18px;
+=======
+    color: green;
+    font-size: 18px; 
+}
+
+.GeicoFigCaption {
+    color: green;
+    font-size: 18;
+>>>>>>> Stashed changes
 }
 
 header {
