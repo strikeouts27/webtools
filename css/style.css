@@ -44,6 +44,11 @@ figcaption {
     color: lawngreen;
     font-weight: bold;
     font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.Geico:hover {
+    transform: scale(1.1);
 }
 
 .GeicoFigCaption {
@@ -55,6 +60,13 @@ figcaption {
 header {
     background-color: darkgray; 
     color: black;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    max-width: 500px; 
+    max-height: 500px;
 }
 
 .JavaFigCaption {
