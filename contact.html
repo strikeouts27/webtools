@@ -3,83 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="images/computer_favicon.png">
 </head>
+
 <body>
-    <form name="contact" method="get" action="success.html">
+    <header class="top-banner">
+        <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="navbar">Home</a></li>
+            <li><a href="contact.html" class="navbar">Contact Us</a></li>
+            <li><a href="about_us.html" class="navbar">About Us</a></li>
+        </ul>
 
+        <h3 class="worktogathertext">LETS WORK TOGATHER ON A PROJECT!</h3>
+        <img src="images/codeTogather.png" width="300px" height="300px"> 
+
+
+    </header>
+    
+
+    </nav>
+
+    <div class="form-container">
+        <form name="contact" method="get" action="success.html">
+
+        
         <table>
-                <label for="fname"> First name: </label><br>
-                <input type="text" id="fname" name="fname"><br>
+                <label for="fname" class="form-label"> First name: </label>
+                <input type="text" id="fname" name="fname" class="form-input">
                 
-                <label for="lname"> Last name:</label><br> 
-                <input type="text" id="lname" name="lname"><br> 
+                <label for="lname" class="form-label"> Last name:</label>
+                <input type="text" id="lname" name="lname" class="form-input">
 
-                <label for="phone" id="phone" name="phone">Phone:</label><br> 
-                <input type="text" id="phone" name="phone"><br> 
+                <label for="phone" id="phone" name="phone" class="form-label">Phone:</label>
+                <input type="text" id="phone" name="phone" class="form-input">
 
-                <label for="email" id="email" name="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br> 
+                <label for="email" id="email" name="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input">                
                 
                 <fieldset>
+
                     <legend>What programming languages did you want to study with our group?</legend>
 
                     <input type="checkbox" id="HTML" name="languages" value="HTML">
-                    <label for="HTML">HTML</label><br> 
+                    <label for="HTML">HTML</label>
 
                     <input type="checkbox" id="CSS" name="languages" value="CSS"> 
-                    <label for="CSS">CSS</label><br> 
+                    <label for="CSS">CSS</label>
 
                     <input type="checkbox" id="javascript" name="languages" value="javascript">
-                    <label for="javascript">JavaScript</label><br>
+                    <label for="javascript">JavaScript</label>
 
                     <input type="checkbox" id="python" name="languages" value="python">
-                    <label for="python">Python</label><br>
+                    <label for="python">Python</label>
 
                     <input type="checkbox" id="csharp" name="languages" value="csharp" checked>
-                    <label for="csharp">C#</label><br> 
+                    <label for="csharp">C#</label>
 
                     <input type="checkbox" id="java" name="languages" value="java">
-                    <label for="java">Java</label><br> 
+                    <label for="java">Java</label>
 
                     <input type="checkbox" id="SQL" name="SQL" value="SQL">
-                    <label for="SQL">SQL</label><br>
+                    <label for="SQL">SQL</label>
                 </fieldset>
 
                 <fieldset>
                     <legend>What days are you available for studying?</legend>
 
                     <input type="checkbox" id="monday" name="days" value="monday">
-                    <label for="monday">Monday</label><br>
+                    <label for="monday">Monday</label>
 
                     <input type="checkbox" id="tuesday" name="days" value="tuesday">
-                    <label for="tuesday">Tuesday</label><br>
+                    <label for="tuesday">Tuesday</label>
 
                     <input type="checkbox" id="wednesday" name="days" value="wednesday">
-                    <label for="wednesday">Wednesday</label><br>
+                    <label for="wednesday">Wednesday</label>
 
                     <input type="checkbox" id="thursday" name="days" value="thursday">
-                    <label for="thursday">Thursday</label><br>
+                    <label for="thursday">Thursday</label>
 
                     <input type="checkbox" id="friday" name="days" value="friday">
-                    <label for="friday">Friday</label><br>
+                    <label for="friday">Friday</label>
 
                     <input type="checkbox" id="saturday" name="days" value="saturday">
-                    <label for="saturday">Saturday</label><br>
+                    <label for="saturday">Saturday</label>
 
                     <input type="checkbox" id="sunday" name="days" value="sunday">
-                    <label for="sunday">Sunday</label><br>
+                    <label for="sunday">Sunday</label>
 
                 </fieldset>
 
-                <label for="about">Please go ahead and tell me about yourself and your programming journey and your goals and what you hope to achieve with this group:</label><br>
-                <textarea id="about" name="about" rows="6" cols="50" placeholder="Share your story here..."></textarea><br>
+                <fieldset>
+                        <legend>Please go ahead and tell me about yourself and your programming journey and your goals and what you hope to achieve with this group:</legend>
+                        <label for="about"></label>
+                        <textarea id="about" name="about" rows="6" cols="50" placeholder="Share your story here..."></textarea>
+                </fieldset>
+
 
         </table>
 
                 <button>Submit</button>
                 <button>Reset</button>
-    </form>
+        </form>
+    </div>
 
     
 </body>

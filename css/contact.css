@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: green;
+    text: 10px; 
+}
+
+.form-input {
+    padding: 10px; 
+    margin: 10px;
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.form-label {
+    padding: 10px; 
+    margin: 10px; 
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Form container centering class */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+
+/* Make fieldset bigger */
+fieldset {
+    width: calc(100% - 4px);
+    padding: 20px;
+    margin: 15px 0;
+    border: 2px solid green;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+legend {
+    padding: 10px;
+}
+
+.navbar {
+    text-align: left;
+    text-align: green;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    color: white; 
+}
+
+.navbar a {
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.navbar a:hover {
+    color: lime;
+    text-decoration: underline;
+}
+
+.programmingjourneylabel{
+    padding: 20px;
+}
+
+.top-banner {
+    background-color: black;
+    color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+.worktogathertext {
+    color: green; 
+    font-size: bold;
+    text-align: center;
+}
+
+
