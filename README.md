@@ -10,3 +10,8 @@ a web development intern.
 AI was used for some of the images in this project. 
 <meta name="author" content="Your Name">
 <meta name="description" content="This page includes content assisted by AI tools.">
+
+
+Programming Cohort Picture On the Contact.HTML page came from 
+https://www.codemotion.com/magazine/dev-life/pros-and-cons-of-collaborative-coding/
+

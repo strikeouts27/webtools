@@ -40,8 +40,33 @@ figcaption {
     font-weight: bold;
 }
 
+
+form[name="contact"] {
+    width: 70%;
+    max-width: 800px;
+    margin: 100px; 
+}
+
+
+/* Class selectors for centering specific elements */
+.form-label {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.form-input {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 250px;
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
 .Geico {
-<<<<<<< Updated upstream
     color: lawngreen;
     font-weight: bold;
     font-size: 18px;
@@ -56,15 +81,6 @@ figcaption {
     color: lawngreen; 
     font-weight: bold;
     font-size: 18px;
-=======
-    color: green;
-    font-size: 18px; 
-}
-
-.GeicoFigCaption {
-    color: green;
-    font-size: 18;
->>>>>>> Stashed changes
 }
 
 header {
@@ -77,6 +93,7 @@ img {
     width: 250px;
     max-width: 500px; 
     max-height: 500px;
+
 }
 
 .JavaFigCaption {
@@ -136,13 +153,5 @@ img {
 .UTAFigCaption {
     color: blue;
     font-size: bold;
-
 }
-
-
-
-
-
-
-
 
