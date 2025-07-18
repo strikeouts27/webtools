@@ -13,11 +13,21 @@ body {
     color: black;
 }
 
+.captainIsDeadImage {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.codecademy {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .CodecademyFigCaption {
     color: black; 
     font-weight: bold; 
     font-size: 14px;
-};
+}
 
 .CodeGeassFigCaption {
     color: purple; 
@@ -38,6 +48,10 @@ body {
 figcaption {
     color: black;
     font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    clear: both;
 }
 
 
@@ -66,10 +80,12 @@ form[name="contact"] {
     border-radius: 4px;
 }
 
-.Geico {
+.geicoImage {
     color: lawngreen;
     font-weight: bold;
     font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
     transition: transform 0.3s ease;
 }
 
@@ -153,5 +169,29 @@ img {
 .UTAFigCaption {
     color: blue;
     font-size: bold;
+}
+ 
+/* Image and caption container */
+.image-with-caption {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    vertical-align: top;
+    max-width: 250px;
+}
+
+.image-with-caption img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.image-with-caption figcaption {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
 }
 
