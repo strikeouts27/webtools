@@ -36,7 +36,7 @@ body {
 
 /* Make fieldset bigger */
 fieldset {
-  width: calc(100% - 4px);
+  max-width: 400px;
   padding: 20px;
   margin: 15px 0;
   border: 2px solid green;

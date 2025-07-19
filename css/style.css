@@ -1,197 +1,158 @@
-
 a {
-    color: black; 
+  color: black;
 }
 
 .AppleFigcaption {
-    color: white; 
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 body {
-    background-color: darkgray;
-    color: black;
+  background-color: darkgray;
+  color: black;
 }
 
 .captainIsDeadImage {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .codecademy {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .CodecademyFigCaption {
-    color: black; 
-    font-weight: bold; 
-    font-size: 14px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .CodeGeassFigCaption {
-    color: purple; 
-    font-weight: bold;
+  color: purple;
+  font-weight: bold;
 }
 .compensation {
-    color: lawngreen;
-    font-weight: bold;
-    font-size: 18px;
-    
+  color: lawngreen;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .CSharpFigCaption {
-    color: purple; 
-    font-weight: bold;
+  color: purple;
+  font-weight: bold;
 }
-
-figcaption {
-    color: black;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    margin-top: 5px;
-    clear: both;
-}
-
 
 form[name="contact"] {
-    width: 70%;
-    max-width: 800px;
-    margin: 100px; 
+  width: 70%;
+  max-width: 800px;
+  margin: 100px;
 }
-
 
 /* Class selectors for centering specific elements */
 .form-label {
-    display: block;
-    text-align: center;
-    margin: 10px auto;
-    font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: bold;
 }
 
 .form-input {
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-    width: 250px;
-    padding: 8px;
-    border: 2px solid #333;
-    border-radius: 4px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 250px;
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 4px;
 }
 
 .geicoImage {
-    color: lawngreen;
-    font-weight: bold;
-    font-size: 18px;
-    display: inline-block;
-    vertical-align: top;
-    transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: top;
+  transition: transform 0.3s ease;
 }
 
 .Geico:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.GeicoFigCaption {
-    color: lawngreen; 
-    font-weight: bold;
-    font-size: 18px;
+.geicoFigCaption {
+  color: lawngreen;
+  font-weight: bold;
+  font-size: 18px;
+  clear: both;
 }
 
 header {
-    background-color: darkgray; 
-    color: black;
+  background-color: darkgray;
+  color: black;
 }
 
 img {
-    height: 250px;
-    width: 250px;
-    max-width: 500px; 
-    max-height: 500px;
-
+  height: 250px;
+  width: 250px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .JavaFigCaption {
-    color: orangered;
-    font-weight: bold;
-
+  color: orangered;
+  font-weight: bold;
 }
 
 .navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar li {
-    display: inline;
-    color: white; 
+  display: inline;
+  color: white;
 }
 
 .NucampFigCaption {
-    color:purple; 
-    font-weight: bold;
+  color: purple;
+  font-weight: bold;
 }
 
 .PlanoTitleBoxingClubFigCaption {
-    color: red; 
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 .ParamoreFigCaption {
-    color:white; 
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .PrestonCrestChurchofChristFigCaption {
-    color: white;
-    font-size: bold;
+  color: white;
+  font-size: bold;
 }
 
-.TexasRangersFigCaption{
-    color: red;
-    font-size: bold;
+.TexasRangersFigCaption {
+  color: red;
+  font-size: bold;
 }
 
 .TheCaptainIsDeadFigCaption {
-    color: yellow;
-    font-size: bold;
-    font-size: 18px;
+  color: yellow;
+  font-size: bold;
+  font-size: 18px;
 }
 
 .TheLastOfUsFigCaption {
-    color: white; 
-    font-size: bold;
+  color: white;
+  font-size: bold;
 }
-
 
 .UTAFigCaption {
-    color: blue;
-    font-size: bold;
-}
- 
-/* Image and caption container */
-.image-with-caption {
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-    vertical-align: top;
-    max-width: 250px;
+  color: blue;
+  font-size: bold;
 }
 
-.image-with-caption img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-}
-
-.image-with-caption figcaption {
-    display: block;
-    width: 100%;
-    margin-top: 5px;
-    text-align: center;
-    font-weight: bold;
-}
 
