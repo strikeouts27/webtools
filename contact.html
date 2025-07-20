@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="icon" href="images/computer_favicon.png">
 </head>
 
@@ -20,14 +21,12 @@
         <h3 class="worktogathertext">LETS WORK TOGATHER ON A PROJECT!</h3>
         <img src="images/codeTogather.png" width="300px" height="300px"> 
 
-
     </header>
     
 
     </nav>
 
-    <div class="form-container">
-        <div name="contact" method="get" action="success.html">
+    <form class="form-container" method="get" action="success.html">
 
                 <label for="fname" class="form-label"> First name: </label>
                 <input type="text" id="fname" name="fname" class="form-input">
@@ -40,7 +39,7 @@
 
                 <label for="email" id="email" name="email" class="form-label">Email:</label>
                 <input type="email" id="email" name="email" class="form-input">                
-        </div>
+        
                 <fieldset>
 
                     <legend>What programming languages did you want to study with our group?</legend>
@@ -93,7 +92,7 @@
                 </fieldset>
 
 
-                <button>Submit</button>
+                <button type="submit">Submit</button>
                 <button>Reset</button>
         </form>
 
