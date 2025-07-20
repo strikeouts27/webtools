@@ -1,15 +1,7 @@
-a {
-  color: black;
-}
-
-.AppleFigcaption {
-  color: white;
-  font-weight: bold;
-}
-
 body {
-  background-color: darkgray;
-  color: black;
+  background-color: black;
+  color: green;
+  text: 10px;
 }
 
 .captainIsDeadImage {
@@ -24,59 +16,46 @@ body {
   vertical-align: top;
 }
 
-.CodecademyFigCaption {
+/* .CodecademyFigCaption {
   color: black;
   font-size: 18px;
   font-weight: bold;
-}
-
-.CodeGeassFigCaption {
-  color: purple;
-  font-weight: bold;
-}
-.compensation {
-  color: lawngreen;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.CSharpFigCaption {
-  color: purple;
-  font-weight: bold;
-}
-
-form[name="contact"] {
-  width: 70%;
-  max-width: 800px;
-  margin: 100px;
-}
-
-/* Class selectors for centering specific elements */
-.form-label {
-  display: block;
-  text-align: center;
-  margin: 10px auto;
-  font-weight: bold;
-}
+} */
 
 .form-input {
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
   display: block;
-  margin: 10px auto;
-  text-align: center;
-  width: 250px;
-  padding: 8px;
-  border: 2px solid #333;
-  border-radius: 4px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.form-label {
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* Make fieldset bigger */
+fieldset {
+  max-width: 400px;
+  padding: 20px;
+  margin: 15px 0;
+  border: 2px solid green;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  min-height: 150px;
+  box-sizing: border-box;
 }
 
 .geicoImage {
   display: inline-block;
   vertical-align: top;
   transition: transform 0.3s ease;
-}
-
-.Geico:hover {
-  transform: scale(1.1);
 }
 
 .geicoFigCaption {
@@ -86,21 +65,19 @@ form[name="contact"] {
   clear: both;
 }
 
-header {
-  background-color: darkgray;
-  color: black;
-}
-
 img {
-  height: 250px;
-  width: 250px;
-  max-width: 500px;
-  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.JavaFigCaption {
-  color: orangered;
-  font-weight: bold;
+legend {
+  padding: 10px;
+}
+
+.navbar {
+  text-align: left;
+  text-align: green;
 }
 
 .navbar ul {
@@ -114,45 +91,41 @@ img {
   color: white;
 }
 
-.NucampFigCaption {
-  color: purple;
-  font-weight: bold;
+.navbar a {
+  color: green;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
 }
 
-.PlanoTitleBoxingClubFigCaption {
-  color: red;
-  font-weight: bold;
+.navbar a:hover {
+  color: lime;
+  text-decoration: underline;
+}
+/* FOR SUCCESS.HTML */
+
+/* .socialLinks {
+  TODO
+} */
+
+/*TABLE FORMATTING */
+/* table {
+  background-color: red;
+} */
+
+.programmingjourneylabel {
+  padding: 20px;
 }
 
-.ParamoreFigCaption {
-  color: white;
-  font-weight: bold;
+.top-banner {
+  background-color: black;
+  color: green;
+  padding: 20px;
+  text-align: center;
 }
 
-.PrestonCrestChurchofChristFigCaption {
-  color: white;
+.worktogathertext {
+  color: green;
   font-size: bold;
+  text-align: center;
 }
-
-.TexasRangersFigCaption {
-  color: red;
-  font-size: bold;
-}
-
-.TheCaptainIsDeadFigCaption {
-  color: yellow;
-  font-size: bold;
-  font-size: 18px;
-}
-
-.TheLastOfUsFigCaption {
-  color: white;
-  font-size: bold;
-}
-
-.UTAFigCaption {
-  color: blue;
-  font-size: bold;
-}
-
-

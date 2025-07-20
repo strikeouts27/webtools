@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="icon" href="images/computer_favicon.png">
 </head>
 
@@ -20,17 +21,13 @@
         <h3 class="worktogathertext">LETS WORK TOGATHER ON A PROJECT!</h3>
         <img src="images/codeTogather.png" width="300px" height="300px"> 
 
-
     </header>
     
 
     </nav>
 
-    <div class="form-container">
-        <form name="contact" method="get" action="success.html">
+    <form class="form-container" method="get" action="success.html">
 
-        
-        <table>
                 <label for="fname" class="form-label"> First name: </label>
                 <input type="text" id="fname" name="fname" class="form-input">
                 
@@ -42,7 +39,7 @@
 
                 <label for="email" id="email" name="email" class="form-label">Email:</label>
                 <input type="email" id="email" name="email" class="form-input">                
-                
+        
                 <fieldset>
 
                     <legend>What programming languages did you want to study with our group?</legend>
@@ -72,40 +69,70 @@
                 <fieldset>
                     <legend>What days are you available for studying?</legend>
 
-                    <input type="checkbox" id="monday" name="days" value="monday">
-                    <label for="monday">Monday</label>
-
-                    <input type="checkbox" id="tuesday" name="days" value="tuesday">
-                    <label for="tuesday">Tuesday</label>
-
-                    <input type="checkbox" id="wednesday" name="days" value="wednesday">
-                    <label for="wednesday">Wednesday</label>
-
-                    <input type="checkbox" id="thursday" name="days" value="thursday">
-                    <label for="thursday">Thursday</label>
-
-                    <input type="checkbox" id="friday" name="days" value="friday">
-                    <label for="friday">Friday</label>
-
-                    <input type="checkbox" id="saturday" name="days" value="saturday">
-                    <label for="saturday">Saturday</label>
-
-                    <input type="checkbox" id="sunday" name="days" value="sunday">
-                    <label for="sunday">Sunday</label>
-
+                    <input type="radio" id="radioID" name="availability" value="Weekdays">
+                    <for for="Weekdays">Weekdays</for>
+                    <input type="radio" id="Weekends" name="availability" value="Weekends">
+                    <label for="Weekends" id="Weekends">Weekends</label>
                 </fieldset>
 
+
+                <fieldset>
+                    <legend>What is your level of experience with programming?</legend>
+                    <select name="subject" id="experience">
+                        <option value="" selected="selected">Please Select One</option>
+                        <option value="1">Rookie</option>
+                        <option value="2">Intermediate</option>
+                        <option value="3">Advanced</option>
+                    </select>
+                </fieldset>
                 <fieldset>
                         <legend>Please go ahead and tell me about yourself and your programming journey and your goals and what you hope to achieve with this group:</legend>
                         <label for="about"></label>
                         <textarea id="about" name="about" rows="6" cols="50" placeholder="Share your story here..."></textarea>
                 </fieldset>
-
-        </table>
-
-                <button>Submit</button>
-                <button>Reset</button>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
         </form>
+            
+            <table class="form-container">
+            <caption>Teacher Schedules</caption>
+            <thead> 
+            <tr>
+                <th scope="col">Professors</th>
+                <th scope="col">Hours</th>
+                <th scope="col">Rank</th>
+            </tr>
+            </thead>
+
+            
+            <tbody>
+                <tr>
+                    <td>Andrew</td>
+                    <td>10AM-03PM</td>
+                    <td>Teachers Aide</td>
+                </tr>
+
+                <tr>
+                    <td>Derek</td>
+                    <td>3PM-06PM</td>
+                    <td>Professor</td>
+                </tr>
+
+                                <tr>
+                    <td>Heard</td>
+                    <td>6PM-9PM</td>
+                    <td>Professor</td>
+                </tr>
+
+                                <tr>
+                    <td>Eddie</td>
+                    <td>10AM-06PM Weekends</td>
+                    <td>Professional</td>
+                </tr>
+            </tbody>
+ 
+            </table>
 
     </div>
 
