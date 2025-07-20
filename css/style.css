@@ -22,7 +22,6 @@ body {
   font-weight: bold;
 } */
 
-
 .form-input {
   padding: 10px;
   margin: 10px;
@@ -39,17 +38,6 @@ body {
   display: block;
   margin-left: 0;
   margin-right: auto;
-}
-
-/* Form container centering class */
-.form-container {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 2px solid green;
-  border-radius: 10px;
-  background-color: #1a1a1a;
 }
 
 /* Make fieldset bigger */
@@ -114,6 +102,16 @@ legend {
   color: lime;
   text-decoration: underline;
 }
+/* FOR SUCCESS.HTML */
+
+/* .socialLinks {
+  TODO
+} */
+
+/*TABLE FORMATTING */
+/* table {
+  background-color: red;
+} */
 
 .programmingjourneylabel {
   padding: 20px;

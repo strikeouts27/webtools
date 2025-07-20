@@ -1,0 +1,9 @@
+/* Form container centering class */
+.form-container {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+}
