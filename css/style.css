@@ -4,23 +4,18 @@ body {
   text: 10px;
 }
 
-.captainIsDeadImage {
-  display: inline-block;
-  vertical-align: top;
-  font-weight: bold;
-  font-size: 14px;
+.CaptainIsDeadFigure {
+  float: left;
 }
 
-.codecademy {
-  display: inline-block;
-  vertical-align: top;
+.CodecademyFigure {
+  float: left;
 }
 
-/* .CodecademyFigCaption {
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-} */
+.CodeTogather {
+  display: block;
+  margin: auto;
+}
 
 .form-input {
   padding: 10px;
@@ -52,23 +47,8 @@ fieldset {
   box-sizing: border-box;
 }
 
-.geicoImage {
-  display: inline-block;
-  vertical-align: top;
-  transition: transform 0.3s ease;
-}
-
-.geicoFigCaption {
-  color: lawngreen;
-  font-weight: bold;
-  font-size: 18px;
-  clear: both;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+.GeicoFigure {
+  float: left;
 }
 
 legend {
@@ -102,16 +82,7 @@ legend {
   color: lime;
   text-decoration: underline;
 }
-/* FOR SUCCESS.HTML */
 
-/* .socialLinks {
-  TODO
-} */
-
-/*TABLE FORMATTING */
-/* table {
-  background-color: red;
-} */
 
 .programmingjourneylabel {
   padding: 20px;
