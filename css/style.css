@@ -4,17 +4,14 @@ body {
   text: 10px;
 }
 
-.CaptainIsDeadFigure {
+.CaptainIsDead{
   float: left;
+  clear: left; 
 }
 
-.CodecademyFigure {
+.Codecademy {
   float: left;
-}
-
-.CodeTogather {
-  display: block;
-  margin: auto;
+  clear: left; 
 }
 
 .form-input {
