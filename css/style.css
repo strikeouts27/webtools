@@ -4,13 +4,14 @@ body {
   text: 10px;
 }
 
-.CaptainIsDead {
+.CaptainIsDeadFigure {
   float: left;
 }
 
-.Codecademy {
+.CodecademyFigure {
   float: left;
 }
+
 .CodeTogather {
   display: block;
   margin: auto;
@@ -46,6 +47,9 @@ fieldset {
   box-sizing: border-box;
 }
 
+.GeicoFigure {
+  float: left;
+}
 
 legend {
   padding: 10px;
