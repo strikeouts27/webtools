@@ -97,3 +97,27 @@ legend {
   font-size: bold;
   text-align: center;
 }
+
+.footerContainer {
+  float: left;
+  position: relative;
+  top: 300px;
+}
+
+.HobbyContainer {
+  border: 1px;
+  border-color: green;
+  position: 200px;
+  
+}
+
+.personalHobbiesText {
+  border: 1px;
+  position: relative;
+  top: 300px;
+}
+
+.ProgrammingJourneyTextContainer{
+  position: relative;
+  top: 125px; 
+}
