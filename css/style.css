@@ -99,9 +99,10 @@ legend {
 }
 
 .footerContainer {
-  float: left;
   position: relative;
-  top: 300px;
+  top: 600px;
+  right: 300px;
+  align-items: left;
 }
 
 .HobbyContainer {
