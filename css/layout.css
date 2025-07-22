@@ -1,3 +1,9 @@
+.CodeTogather {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Makes images responsive */
+}
+
 /* Form container centering class */
 .form-container {
   width: 70%;
@@ -8,8 +14,14 @@
   background-color: #1a1a1a;
 }
 
-.CodeTogather {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%; /* Makes images responsive */
+.footerContainer {
+
+}
+
+.HobbyContainer {
+
+}
+
+.ProgrammingJourneyContainer {
+  
 }
