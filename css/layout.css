@@ -14,3 +14,7 @@
   background-color: #1a1a1a;
 }
 
+main {
+  width: 960px;
+  margin: auto auto; 
+}
