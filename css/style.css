@@ -1,7 +1,6 @@
 body {
   background-color: black;
   color: green;
-  text: 10px;
 }
 
 .CaptainIsDead{
@@ -94,7 +93,7 @@ legend {
 
 .worktogathertext {
   color: green;
-  font-size: bold;
+  font-size: 1.0rem;
   text-align: center;
 }
 
@@ -102,14 +101,11 @@ legend {
   position: relative;
   top: 600px;
   right: 300px;
-  align-items: left;
 }
 
 .HobbyContainer {
   border: 1px;
   border-color: green;
-  position: 200px;
-  
 }
 
 .personalHobbiesText {
