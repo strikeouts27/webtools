@@ -18,3 +18,19 @@ main {
   width: 960px;
   margin: auto auto; 
 }
+
+/*team.html styles */ 
+
+.staffFlexContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.staffMember {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border: 1px solid #ccc; 
+  padding: 20px;
+  border-radius: 8px;
+}
