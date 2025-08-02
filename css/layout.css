@@ -33,7 +33,17 @@ main {
   background-color: orange;
 }
 
-/* .staffImageContainer {
-    display: flex;
-    border: solid 1px; 
-} */
+.navbar {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.navbarItem {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none; /* Removes underlines from links */
+}
