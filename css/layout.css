@@ -16,34 +16,94 @@
 
 main {
   width: 960px;
-  margin: auto auto; 
+  margin: auto auto;
 }
 
-/*team.html styles */ 
+/*team.html styles */
 
 .staffFlexContainer {
   display: flex;
   flex-direction: column;
-  background-color: green;
 }
 
 .staffMember {
   display: flex;
   flex-direction: row;
-  background-color: orange;
+  border: solid 1px;
 }
 
+.staffText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 15px; /* Creates space between image and text */
+}
 .navbar {
-    display: inline-flex;
-    flex-direction: row;
+  display: inline-flex;
+  flex-direction: row;
 }
 
 .navbarItem {
-    display: inline-flex;
-    list-style: none;
-    text-decoration: none;
+  display: inline-flex;
+  list-style: none;
+  text-decoration: none;
 }
 
 .navbar a {
-    text-decoration: none; /* Removes underlines from links */
+  text-decoration: none; /* Removes underlines from links */
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center; /* Centers items along the cross axis */
+  justify-content: center; /* Centers items along the main axis */
+  background-color: antiquewhite;
+  padding: 20px;
+  border: solid 10px;
+}
+
+.footerItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  border: solid 10px;
+  padding: 40px 20px; /* Increases internal space */
+  min-height: 150px; /* Sets minimum height */
+  font-size: 18px; /* Makes text larger */
+}
+
+.footerHeader {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Container for social media icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Container for contact info */
+.contact-info {
+  align-self: flex-start; /* Left alignment */
+  text-align: left;
+  align-items: baseline;
+}
+
+.contact-info p {
+  margin: 5px 0;
 }
