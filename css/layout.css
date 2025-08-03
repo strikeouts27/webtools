@@ -53,34 +53,27 @@ main {
   text-decoration: none; /* Removes underlines from links */
 }
 
-.footerContainer {
-  display: flex;
-  align-items: center; /* Centers items along the cross axis */
-  justify-content: center; /* Centers items along the main axis */
-  background-color: antiquewhite;
-  padding: 20px;
-  border: solid 10px;
-}
-
-.footerItems {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 15px;
-  border: solid 10px;
-  padding: 40px 20px; /* Increases internal space */
-  min-height: 150px; /* Sets minimum height */
-  font-size: 18px; /* Makes text larger */
-}
-
 .footerHeader {
   text-align: center;
   margin: 0;
   font-weight: bold;
 }
 
+/* Main footer container */
+.footerItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  border: solid 10px;
+  padding: 40px 20px;
+  min-height: 150px;
+  font-size: 18px;
+}
+
 /* Container for social media icons */
 .social-icons {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -93,13 +86,12 @@ main {
   transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #007bff;
-}
-
 /* Container for contact info */
 .contact-info {
-  align-self: flex-start; /* Left alignment */
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: auto; /* This pushes it to the bottom */
   text-align: left;
   align-items: baseline;
 }
