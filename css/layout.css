@@ -24,13 +24,26 @@ main {
 .staffFlexContainer {
   display: flex;
   flex-direction: column;
+  background-color: green;
 }
 
 .staffMember {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  border: 1px solid #ccc; 
-  padding: 20px;
-  border-radius: 8px;
+  flex-direction: row;
+  background-color: orange;
+}
+
+.navbar {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.navbarItem {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none; /* Removes underlines from links */
 }
