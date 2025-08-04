@@ -62,3 +62,7 @@ body {
     background-color: purple;
 }
 
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
