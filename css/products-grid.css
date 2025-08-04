@@ -18,6 +18,11 @@ body {
   list-style: none;
 }
 
+.verticalNavigationBar a {
+  color: black;
+  text-decoration: none;
+}
+
 .verticalNavigationBar li {
   display: grid;
   text-decoration: none;
