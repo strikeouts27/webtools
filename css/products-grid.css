@@ -1,3 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer";
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
 .verticalNavigationBar{
     display: grid;
@@ -5,17 +17,48 @@
 
 .productGrid {
     display: grid;
-    grid-template-columns: repeat(6 1fr);
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     border: solid 1px;
     background-color: orange;
+    gap: 10px;
+    min-height: 1000px;
+    height: 100%; /* Or this to fill the main area */
 }
 
 .productFeature {
-    display: grid;
-    grid-column: 1 / 1;
-    grid-row: 1 span 3;
-    background-color: green;
+    grid-column: 1 / span 4;
+    grid-row: 1; 
+    background-color: whitesmoke;
+}
 
+.ProductA {
+    grid-row: 2; /* Instead of grid-row-start: 2 / span 3 */
+    grid-column: 1 / span 3;
+    background-color: aqua;
+}
+
+.ProductB {
+    grid-row: 2;
+    grid-column: 4 / span 3;
+    background-color: aqua;
+}
+
+.ProductC {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    background-color: purple;
+}
+
+.ProductD {
+    grid-row: 3;
+    grid-column: 3 / span 2;
+    background-color: purple;
+}
+
+.ProductE {
+    grid-row: 3;
+    grid-column: 5 / span 2;
+    background-color: purple;
 }
 
