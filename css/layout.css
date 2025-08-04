@@ -1,5 +1,9 @@
 
 /* Form container centering class */
+body{
+  background-color: gray;
+}
+
 .form-container {
   width: 70%;
   margin: 20px auto;
@@ -15,7 +19,7 @@ main {
 }
 
 .navbar a {
-  text-decoration: none; /* Removes underlines from links */
+  text-decoration: none;
   font-size: 1.5rem;
   color: black;
 }
@@ -34,7 +38,30 @@ main {
 }
 
 
-/*team.html styles */
+/* team.html styles */
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.footerItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  border: solid 10px;
+  padding: 40px 20px;
+  min-height: 150px;
+  font-size: 1.2rem
+}
+
+.footerHeader {
+  text-align: center;
+  align-items: baseline;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem
+}
 
 .HelloStaff {
   display: flex;
@@ -60,31 +87,10 @@ main {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin-left: 15px; /* Creates space between image and text */
+  margin-left: 15px;
   font-size: 1rem;
 }
 
-.footerHeader {
-  text-align: center;
-  align-items: baseline;
-  margin: 0;
-  font-weight: bold;
-  font-size: 1.2rem
-}
-
-/* Main footer container */
-.footerItems {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 15px;
-  border: solid 10px;
-  padding: 40px 20px;
-  min-height: 150px;
-  font-size: 1.2rem
-}
-
-/* Container for social media icons */
 .social-icons {
   display: inline-flex;
   flex-direction: row;
@@ -99,7 +105,6 @@ main {
   transition: color 0.3s ease;
 }
 
-/* Container for contact info */
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -110,10 +115,5 @@ main {
   font-size: 1.2rem
 }
 
-.contact-info p {
-  margin: 5px 0;
-}
+/*products.html styles */
 
-body{
-  background-color: gray;
-}
