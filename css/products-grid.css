@@ -1,64 +1,109 @@
 body {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: 80px 1fr 60px;
-    grid-template-areas:
-        "header header"
-        "nav main"
-        "footer footer";
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+  display: grid;
+  background-color: gray;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 1fr 60px;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.verticalNavigationBar{
-    display: grid;
+.verticalNavigationBar {
+  display: grid;
 }
 
 .productGrid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    border: solid 1px;
-    background-color: orange;
-    gap: 10px;
-    min-height: 1000px;
-    height: 100%; /* Or this to fill the main area */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: solid 1px;
+  gap: 10px;
+  min-height: 1000px;
+  height: 100%; /* Or this to fill the main area */
 }
 
 .productFeature {
-    grid-column: 1 / span 4;
-    grid-row: 1; 
-    background-color: whitesmoke;
+  grid-column: 1 / span 6;
+  grid-row: 1;
+  border: solid 1px; 
 }
 
 .ProductA {
-    grid-row: 2; /* Instead of grid-row-start: 2 / span 3 */
-    grid-column: 1 / span 3;
-    background-color: aqua;
+  grid-row: 2; /* Instead of grid-row-start: 2 / span 3 */
+  grid-column: 1 / span 3;
+  border: solid 1px;
 }
 
 .ProductB {
-    grid-row: 2;
-    grid-column: 4 / span 3;
-    background-color: aqua;
+  grid-row: 2;
+  grid-column: 4 / span 3;
+  border: solid 1px;
 }
 
 .ProductC {
-    grid-row: 3;
-    grid-column: 1 / span 2;
-    background-color: purple;
+  grid-row: 3;
+  grid-column: 1 / span 2;
+  border: solid 1px;
 }
 
 .ProductD {
-    grid-row: 3;
-    grid-column: 3 / span 2;
-    background-color: purple;
+  grid-row: 3;
+  grid-column: 3 / span 2;
+  border: solid 1px;
 }
 
 .ProductE {
-    grid-row: 3;
-    grid-column: 5 / span 2;
-    background-color: purple;
+  grid-row: 3;
+  grid-column: 5 / span 2;
+  border: solid 1px;
 }
 
+img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+/* Product content layout */
+.product-content {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+/* Figure styling - image and caption grouped together */
+.product-content figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* Image styling */
+.product-content figure img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Figcaption under the image */
+.product-content figure figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 8px;
+  width: 250px;
+}
+
+/* GameBio text next to the image */
+.product-content .GameBio {
+  flex-grow: 1;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  padding-left: 10px;
+}
