@@ -45,8 +45,10 @@ main {
 .staffFlexCard {
   display: flex;
   flex-direction: column;
-  border-color: black solid 1rem;
+  border-color: black;
+  border: 1rem;
   max-width: 960px;
+
 }
 
 .staffMember {
