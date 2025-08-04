@@ -18,18 +18,21 @@ main {
   margin: auto auto;
 }
 
+.navbar {
+  display: inline-flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 0.2rem;
+}
+
 .navbar a {
   text-decoration: none;
   font-size: 1.5rem;
   color: black;
 }
 
-.navbar {
-  display: inline-flex;
-  flex-direction: row;
-  text-decoration: none;
-  font-size: 1rem;
-}
+
 
 .navbarItem {
   display: inline-flex;
