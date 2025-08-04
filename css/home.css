@@ -1,10 +1,9 @@
-.CodeTogather {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%; /* Makes images responsive */
+/* Form container centering class */
+
+body{
+  background-color: gray;
 }
 
-/* Form container centering class */
 .form-container {
   width: 70%;
   margin: 20px auto;
