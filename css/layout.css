@@ -19,17 +19,21 @@ main {
   margin: auto auto;
 }
 
+
 /*team.html styles */
 
-.staffFlexContainer {
+.staffFlexCard {
   display: flex;
   flex-direction: column;
+  border-color: black solid 1rem;
+  max-width: 960px;
 }
 
 .staffMember {
   display: flex;
   flex-direction: row;
-  border: solid 1px;
+  border: solid 0.5rem;
+  font-size: 1rem;
 }
 
 .staffText {
@@ -37,6 +41,7 @@ main {
   flex-direction: column;
   gap: 5px;
   margin-left: 15px; /* Creates space between image and text */
+  font-size: 1rem;
 }
 .navbar {
   display: inline-flex;
@@ -55,8 +60,10 @@ main {
 
 .footerHeader {
   text-align: center;
+  align-items: baseline;
   margin: 0;
   font-weight: bold;
+  font-size: 1.2rem
 }
 
 /* Main footer container */
@@ -68,13 +75,13 @@ main {
   border: solid 10px;
   padding: 40px 20px;
   min-height: 150px;
-  font-size: 18px;
+  font-size: 1.2rem
 }
 
 /* Container for social media icons */
 .social-icons {
-  flex-direction: column;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 20px;
   align-items: center;
@@ -94,8 +101,13 @@ main {
   margin-top: auto; /* This pushes it to the bottom */
   text-align: left;
   align-items: baseline;
+  font-size: 1.2rem
 }
 
 .contact-info p {
   margin: 5px 0;
+}
+
+body{
+  background-color: gray;
 }
