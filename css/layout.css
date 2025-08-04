@@ -1,11 +1,11 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Form container centering class */
-body{
+body {
   background-color: gray;
 }
 
@@ -37,14 +37,11 @@ main {
   color: black;
 }
 
-
-
 .navbarItem {
   display: inline-flex;
   list-style: none;
   text-decoration: none;
 }
-
 
 /* team.html styles */
 
@@ -60,7 +57,7 @@ main {
   border: solid 10px;
   padding: 40px 20px;
   min-height: 150px;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 .footerHeader {
@@ -68,20 +65,20 @@ main {
   align-items: baseline;
   margin: 0;
   font-weight: bold;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 .HelloStaff {
   display: flex;
   justify-content: center;
 }
+
 .staffFlexCard {
   display: flex;
   flex-direction: column;
   border-color: black;
   border: 0.2rem;
   max-width: 960px;
-
 }
 
 .staffMember {
@@ -103,7 +100,7 @@ main {
 }
 
 .social-icons {
-  display: inline-flex; 
+  display: inline-flex;
   justify-content: center;
   gap: 1rem;
   align-items: center;
@@ -123,12 +120,11 @@ main {
   margin-top: auto; /* This pushes it to the bottom */
   text-align: left;
   align-items: baseline;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   padding-top: 5rem;
-  padding-left: 1rem; 
+  padding-left: 1rem;
 }
 
 figcaption {
   padding-left: 1rem;
-} 
-
+}
