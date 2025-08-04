@@ -1,5 +1,6 @@
 body {
   display: grid;
+  background-color: gray;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 80px 1fr 60px;
   grid-template-areas:
@@ -20,46 +21,45 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   border: solid 1px;
-  background-color: orange;
   gap: 10px;
   min-height: 1000px;
   height: 100%; /* Or this to fill the main area */
 }
 
 .productFeature {
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 6;
   grid-row: 1;
-  background-color: whitesmoke;
+  border: solid 1px; 
 }
 
 .ProductA {
   grid-row: 2; /* Instead of grid-row-start: 2 / span 3 */
   grid-column: 1 / span 3;
-  background-color: aqua;
+  border: solid 1px;
 }
 
 .ProductB {
   grid-row: 2;
   grid-column: 4 / span 3;
-  background-color: aqua;
+  border: solid 1px;
 }
 
 .ProductC {
   grid-row: 3;
   grid-column: 1 / span 2;
-  background-color: purple;
+  border: solid 1px;
 }
 
 .ProductD {
   grid-row: 3;
   grid-column: 3 / span 2;
-  background-color: purple;
+  border: solid 1px;
 }
 
 .ProductE {
   grid-row: 3;
   grid-column: 5 / span 2;
-  background-color: purple;
+  border: solid 1px;
 }
 
 img {
