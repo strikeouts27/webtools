@@ -80,7 +80,7 @@ main {
 
 /* Container for social media icons */
 .social-icons {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
