@@ -1,0 +1,21 @@
+
+.verticalNavigationBar{
+    display: grid;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(6 1fr);
+    grid-template-rows: repeat(3 1fr);
+    border: solid 1px;
+    background-color: orange;
+}
+
+.productFeature {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 1 span 3;
+    background-color: green;
+
+}
+
