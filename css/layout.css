@@ -1,3 +1,8 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
 /* Form container centering class */
 body{
@@ -74,7 +79,7 @@ main {
   display: flex;
   flex-direction: column;
   border-color: black;
-  border: 1rem;
+  border: 0.2rem;
   max-width: 960px;
 
 }
@@ -82,7 +87,7 @@ main {
 .staffMember {
   display: flex;
   flex-direction: row;
-  border: solid 0.5rem;
+  border: solid 0.2rem;
   font-size: 1rem;
 }
 
@@ -119,4 +124,20 @@ main {
 }
 
 /*products.html styles */
+
+.footerMain{
+  display: grid;
+}
+
+.gridHeader {
+  display: grid;
+}
+
+.gridNavbar{
+  display: grid;
+}
+
+.gridMain {
+  display: grid;
+}
 
