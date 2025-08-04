@@ -39,6 +39,7 @@ body {
   gap: 10px;
   min-height: 1000px;
   height: 100%; /* Or this to fill the main area */
+  padding-top: 10px;
 }
 
 .productFeature {
@@ -121,4 +122,9 @@ img {
   line-height: 1.4;
   margin: 0;
   padding-left: 10px;
+  padding-top: 10px;
+}
+
+figcaption {
+  text-align: left;
 }
