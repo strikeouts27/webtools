@@ -19,9 +19,29 @@ main {
   margin: auto auto;
 }
 
+.navbar a {
+  text-decoration: none; /* Removes underlines from links */
+  font-size: 1rem;
+}
+
+.navbar {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.navbarItem {
+  display: inline-flex;
+  list-style: none;
+  text-decoration: none;
+}
+
 
 /*team.html styles */
 
+.HelloStaff {
+  display: flex;
+  justify-content: center;
+}
 .staffFlexCard {
   display: flex;
   flex-direction: column;
@@ -42,20 +62,6 @@ main {
   gap: 5px;
   margin-left: 15px; /* Creates space between image and text */
   font-size: 1rem;
-}
-.navbar {
-  display: inline-flex;
-  flex-direction: row;
-}
-
-.navbarItem {
-  display: inline-flex;
-  list-style: none;
-  text-decoration: none;
-}
-
-.navbar a {
-  text-decoration: none; /* Removes underlines from links */
 }
 
 .footerHeader {
@@ -80,7 +86,7 @@ main {
 
 /* Container for social media icons */
 .social-icons {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
