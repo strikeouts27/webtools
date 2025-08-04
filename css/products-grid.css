@@ -26,9 +26,9 @@ body {
 .verticalNavigationBar li {
   display: grid;
   text-decoration: none;
-  list-style: none;   
+  list-style: none;
   gap: 10px;
-  color: black    
+  color: black;
 }
 
 .productGrid {
@@ -37,14 +37,15 @@ body {
   grid-template-rows: repeat(3, 1fr);
   border: solid 1px;
   gap: 10px;
-  min-height: 1000px;
   height: 100%; /* Or this to fill the main area */
+  padding-top: 10px;
+  max-width: 992px;
 }
 
 .productFeature {
   grid-column: 1 / span 6;
   grid-row: 1;
-  border: solid 1px; 
+  border: solid 1px;
 }
 
 .ProductA {
@@ -65,16 +66,31 @@ body {
   border: solid 1px;
 }
 
+.ProductC img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
 .ProductD {
   grid-row: 3;
   grid-column: 3 / span 2;
   border: solid 1px;
 }
 
+.ProductD img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
 .ProductE {
   grid-row: 3;
   grid-column: 5 / span 2;
   border: solid 1px;
+}
+
+.ProductE img {
+  max-width: 150px;
+  max-height: 150px;
 }
 
 img {
@@ -121,4 +137,23 @@ img {
   line-height: 1.4;
   margin: 0;
   padding-left: 10px;
+  padding-top: 10px;
+}
+
+.ProductC figure img,
+.ProductD figure img,
+.ProductE figure img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.ProductC figure figcaption,
+.ProductD figure figcaption,
+.ProductE figure figcaption {
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 8px;
 }
