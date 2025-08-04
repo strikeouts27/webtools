@@ -103,11 +103,11 @@ main {
 }
 
 .social-icons {
-  display: inline-flex;
-  flex-direction: row;
+  display: inline-flex; 
   justify-content: center;
-  gap: 20px;
+  gap: 1rem;
   align-items: center;
+  padding-left: 1rem;
 }
 
 .social-icons a {
@@ -123,8 +123,11 @@ main {
   margin-top: auto; /* This pushes it to the bottom */
   text-align: left;
   align-items: baseline;
-  font-size: 1.2rem
+  font-size: 1.2rem; 
+  padding-top: 5rem;
+  padding-left: 1rem; 
 }
+
 figcaption {
   padding-left: 1rem;
 } 
