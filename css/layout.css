@@ -1,5 +1,14 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
 /* Form container centering class */
+body{
+  background-color: gray;
+}
+
 .form-container {
   width: 70%;
   margin: 20px auto;
@@ -14,18 +23,21 @@ main {
   margin: auto auto;
 }
 
-.navbar a {
-  text-decoration: none; /* Removes underlines from links */
-  font-size: 1.5rem;
-  color: black;
-}
-
 .navbar {
   display: inline-flex;
   flex-direction: row;
   text-decoration: none;
   font-size: 1rem;
+  margin: 0 0.2rem;
 }
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+
 
 .navbarItem {
   display: inline-flex;
@@ -34,45 +46,12 @@ main {
 }
 
 
-/*team.html styles */
+/* team.html styles */
 
-.HelloStaff {
-  display: flex;
-  justify-content: center;
-}
-.staffFlexCard {
-  display: flex;
-  flex-direction: column;
-  border-color: black;
-  border: 1rem;
-  max-width: 960px;
-
+.contact-info p {
+  margin: 5px 0;
 }
 
-.staffMember {
-  display: flex;
-  flex-direction: row;
-  border: solid 0.5rem;
-  font-size: 1rem;
-}
-
-.staffText {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin-left: 15px; /* Creates space between image and text */
-  font-size: 1rem;
-}
-
-.footerHeader {
-  text-align: center;
-  align-items: baseline;
-  margin: 0;
-  font-weight: bold;
-  font-size: 1.2rem
-}
-
-/* Main footer container */
 .footerItems {
   display: flex;
   flex-direction: column;
@@ -84,7 +63,45 @@ main {
   font-size: 1.2rem
 }
 
-/* Container for social media icons */
+.footerHeader {
+  text-align: center;
+  align-items: baseline;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem
+}
+
+.HelloStaff {
+  display: flex;
+  justify-content: center;
+}
+.staffFlexCard {
+  display: flex;
+  flex-direction: column;
+  border-color: black;
+  border: 0.2rem;
+  max-width: 960px;
+
+}
+
+.staffMember {
+  display: flex;
+  flex-direction: row;
+  border: solid 0.2rem;
+  font-size: 1rem;
+}
+
+.staffText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 15px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
 .social-icons {
   display: inline-flex;
   flex-direction: row;
@@ -99,7 +116,6 @@ main {
   transition: color 0.3s ease;
 }
 
-/* Container for contact info */
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -110,10 +126,21 @@ main {
   font-size: 1.2rem
 }
 
-.contact-info p {
-  margin: 5px 0;
+/*products.html styles */
+
+.footerMain{
+  display: grid;
 }
 
-body{
-  background-color: gray;
+.gridHeader {
+  display: grid;
 }
+
+.gridNavbar{
+  display: grid;
+}
+
+.gridMain {
+  display: grid;
+}
+
