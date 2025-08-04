@@ -125,7 +125,7 @@ main {
   align-items: baseline;
   font-size: 1.2rem
 }
-
-/*products.html styles */
-
+figcaption {
+  padding-left: 1rem;
+} 
 
