@@ -1,0 +1,38 @@
+/* Media Queries for Different Device Sizes */
+
+/* Smartphones - 576px and below */
+@media (max-width: 576px) and (max-height: 1024px) {
+  /* Smartphone styles go here */
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .w3-flex {
+    display: flex;
+    
+    }
+
+  
+}
+
+
+/* Desktop - 992px and below */
+@media (max-width: 992px) and (max-height: 768px) {
+  /* Desktop styles go here */
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+/* 
