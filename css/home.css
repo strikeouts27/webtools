@@ -21,6 +21,7 @@ main {
 .navbar a {
   text-decoration: none; /* Removes underlines from links */
   font-size: 1rem;
+  color: black;
 }
 
 .navbar {
