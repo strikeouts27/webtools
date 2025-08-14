@@ -15,8 +15,12 @@
 
   .w3-flex {
     display: flex;
-    
     }
+
+  .profileText {
+    gap: 1rem;
+    padding: 1rem;
+  }
 
   
 }
