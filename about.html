@@ -7,6 +7,7 @@
     <!-- Additional CSS StyleSheet Required By Assignment -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/javascript/about.js" />
   </head>
   <body>
     <!-- Navbar -->
@@ -16,28 +17,85 @@
         <li><a href="about.html" class="navbar">About</a></li>
         <li><a href="contact.html" class="navbar">Contact Us</a></li>
         <li><a href="team.html" class="navbar">Team</a></li>
-        <li><a href="products.html" class="navbar">Our Products</a></li>   
+        <li><a href="products.html" class="navbar">Our Products</a></li>
       </ul>
     </div>
     <!-- Bio about me  -->
 
     <div class="w3-flex" id="profileContainer">
       <div class="w3-card">
-        
-        <div class="w3-flex" style="display: flex;">
+        <div class="w3-flex" style="display: flex">
           <img src="images/AIimageAndrew250px.jpg" />
           <p class="profileText">
             Hello everyone! My name is Andrew and I am pleased that you have
-            arrived on my webpage! I had the privlege to be a part of Dallas Colleges Intro To Web Design. In this course we learned how to utilize HTML and elements to style web pages. Listed below are some of my projects. I cannot wait to get started working with you!
+            arrived on my webpage! I had the privlege to be a part of Dallas
+            Colleges Intro To Web Design. In this course we learned how to
+            utilize HTML and elements to style web pages. Listed below are some
+            of my projects. I cannot wait to get started working with you!
           </p>
         </div>
         <figcaption>Andrew Stribling Junior Dev</figcaption>
       </div>
     </div>
 
-    <div>
+    <h2 class="w3-center">Subjects That I Learned About In This Course</h2>
+
+    <div class="w3-content w3-section" style="max-width: 500px">
+
+      <img
+        class="mySlides"
+        src="images/html_250.png"
+      />
+      <img
+        class="mySlides"
+        src="images/cssLogo250.png"
+      />
+      <img
+        class="mySlides"
+        src="images/GitHubLogo250.png"
+      />
+      <img
+        class="mySlides"
+        src="images/PhotoPea250.png"
+      />
+        <img
+        class="mySlides"
+        src="images/PhotoPea250.png"  
+      />
+        <img
+        class="mySlides"
+        src="images/markupvalidationservice300.png"
+      />
+        <img
+        class="mySlides"
+        src="images/markupvalidationservice300.png"
+      />
+        <img
+        class="mySlides"
+        src="images/WaveEvaluationTool250.png"
+      />
 
     </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+
     <ul class="w3-ul w3-border">
       <li><h2>My Projects</h2></li>
       <li>Meet the team</li>

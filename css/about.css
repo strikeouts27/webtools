@@ -32,8 +32,12 @@
   .navbar-list li {
     margin-right: 20px;
 }
-  
+
+.myslides img {
+    max-width: 25%;
+    max-height: 25%;
 }
+  
 
 
 /* Desktop - 992px and below */
