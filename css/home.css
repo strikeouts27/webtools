@@ -42,3 +42,7 @@ main {
 a{
   color: black;
 }
+
+.footerContainer {
+  text-align: center;
+}
