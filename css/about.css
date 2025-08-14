@@ -31,7 +31,7 @@
 /* Slideshow container sizing */
 .w3-content.w3-section {
     max-width: 500px;
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
     margin: 0 auto; /* This will center the slideshow */
 }
@@ -42,11 +42,12 @@
     height: auto;
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .w3-center {
-    width: 500px; /* Match your slideshow max-width */
+    width: 576px; /* Match your slideshow max-width */
+    height: 500px;
     margin: 0 auto;
     text-align: center;
 }

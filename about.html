@@ -7,7 +7,8 @@
     <!-- Additional CSS StyleSheet Required By Assignment -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="/css/about.css" />
-    <link rel="stylesheet" href="/javascript/about.js" />
+    <script src="/javascript/about.js"></script>
+
   </head>
   <body>
     <!-- Navbar -->
@@ -38,74 +39,23 @@
       </div>
     </div>
 
-    <div style="display: flex;">
-      <h2 class="w3-center">Course Material Included:</h2>
-
-    <div class="w3-content w3-section">
-
-      <img
-        class="mySlides"
-        src="images/HTMLLogo500Width.PNG"
-      />
-
-      <img 
-        class="mySlides"
-        src="images/css500Width.jpg"
-      />
-      <img
-        class="mySlides"
-        src="images/CSSValidation500Width.PNG"
-      />
-      <img
-        class="mySlides"
-        src="images/markupvalidationservice500.PNG"
-      />
-
-      <img
-        class="mySlides"
-        src="images/WaveEvaluationTool500Width.PNG"
-
-      />
-        <img
-        class="mySlides"
-        src="images/w3CSSFramework.jpg"
-      />
-        <img
-        class="mySlides"
-        src="images/flexboxCSS500Width.png"
-      />
-        <img
-        class="mySlides"
-        src="images/photopea500Width.jpg"
-      />
-        <img
-        class="mySlides"
-        src="images/GitHub-Logo500Width.png"
-      />
+    <div class="w3-content w3-section w3-display-container">
+        <img class="mySlides" src="images/w3CSSFramework.jpg">
+        <img class="mySlides" src="images/photopea500Width.jpg">
+        <img class="mySlides" src="images/CSSValidation500Width.PNG">
+        <img class="mySlides" src="images/w3CSSFramework.jpg">
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
     </div>
 
-    <script>
-
-      var myIndex = 0;
-      carousel();
-
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {
-          myIndex = 1;
-        }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-      }
-    </script>
 
     </div>
-    
+
+
+
+
+    </div>
+        
 
   </body>
 </html>
