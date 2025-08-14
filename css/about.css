@@ -14,8 +14,7 @@
     }
   
   .profileText {
-    gap: 1rem;
-    padding: 1rem;
+    padding-left: 1rem !important;
   }
 
   .navbar-list {
@@ -38,6 +37,15 @@
     height: auto;
 }
 
+.w3-content w3-section {
+  max-width: 576x;
+  max-height: 500px;
+}
+
+.w3-content w3-section img {
+  width: 75%;
+  height: 75%;
+}
 
 }
 /* Desktop - 992px and below */
