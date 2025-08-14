@@ -28,23 +28,27 @@
     margin-right: 20px;
 }
   
-
-.mySlides {
-    display: block;
+/* Slideshow container sizing */
+.w3-content.w3-section {
     max-width: 500px;
-    max-height: 500px;
-    width: auto;
+    max-height: 400px;
+    overflow: hidden;
+    margin: 0 auto; /* This will center the slideshow */
+}
+
+/* Slideshow images sizing */
+.mySlides {
+    width: 100%;
     height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
-.w3-content w3-section {
-  max-width: 576x;
-  max-height: 500px;
-}
-
-.w3-content w3-section img {
-  width: 75%;
-  height: 75%;
+.w3-center {
+    width: 500px; /* Match your slideshow max-width */
+    margin: 0 auto;
+    text-align: center;
 }
 
 }
