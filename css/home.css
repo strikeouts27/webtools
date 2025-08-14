@@ -1,5 +1,9 @@
 /* Form container centering class */
 
+h1 {
+    text-align: center;
+}
+
 body{
   background-color: gray;
 }
