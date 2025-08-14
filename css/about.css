@@ -16,12 +16,22 @@
   .w3-flex {
     display: flex;
     }
-
+  
   .profileText {
     gap: 1rem;
     padding: 1rem;
   }
 
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+  .navbar-list li {
+    margin-right: 20px;
+}
   
 }
 
