@@ -50,7 +50,11 @@
     text-align: center;
 }
 
-.w3-container p {
+.accordianContainer {
+  display: flex;
+}
+
+.imageContainer img {
   
 }
 
