@@ -35,10 +35,6 @@
     margin: 0 auto; /* This will center the slideshow */
 }
 
-w3-button w3-block w3-left-align button {
-  background-color: black;
-  color: white;
-}
 /* Slideshow images sizing */
 .mySlides {
     width: 100%;
@@ -109,6 +105,11 @@ w3-button w3-block w3-left-align button {
   list-style: none;
   color: black;
 
+}
+
+w3-button w3-block w3-left-align button {
+  background-color: black;
+  color: white;
 }
 
 
