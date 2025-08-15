@@ -58,3 +58,18 @@ function myFunction(id) {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+
+let leftButton = document.getElementById("leftButton");
+let rightButton = document.getElementById("rightButton");
+
+element.addEventListener("click", myFunction);
+
+leftButton.addEventListener("click", () => {
+  console.log("left button clicked");
+});
+
+rightButton.addEventListener("click", () => {
+  console.log("left button clicked");
+});
+
