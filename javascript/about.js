@@ -4,6 +4,7 @@ var slideIndex = 1;
 document.addEventListener("DOMContentLoaded", function () {
   console.log("Page loaded, initializing slideshow");
   initializeSlideshow();
+  setupButtonListeners(); // Setup button event listeners after DOM loads
 });
 
 function initializeSlideshow() {
@@ -60,16 +61,75 @@ function myFunction(id) {
 }
 
 
-let leftButton = document.getElementById("leftButton");
-let rightButton = document.getElementById("rightButton");
+function setupButtonListeners() {
+  // Slideshow navigation buttons
+  let slidePrevButton = document.getElementById("slidePrevButton");
+  let slideNextButton = document.getElementById("slideNextButton");
+  
+  // Accordion content buttons
+  let leftButton = document.getElementById("leftButton");
+  let rightButton = document.getElementById("rightButton");
 
-element.addEventListener("click", myFunction);
+  // Slideshow previous button
+  if (slidePrevButton) {
+    slidePrevButton.addEventListener("click", () => {
+      console.log("Previous slide button clicked");
+      // The onclick in HTML already handles this, but we can add extra functionality here
+    });
+  }
 
-leftButton.addEventListener("click", () => {
-  console.log("left button clicked");
-});
+  // Slideshow next button
+  if (slideNextButton) {
+    slideNextButton.addEventListener("click", () => {
+      console.log("Next slide button clicked");
+      // The onclick in HTML already handles this, but we can add extra functionality here
+    });
+  }
 
-rightButton.addEventListener("click", () => {
-  console.log("left button clicked");
-});
+  // Left accordion button - shows team page images
+  if (leftButton) {
+    leftButton.addEventListener("click", () => {
+      console.log("Left accordion button clicked - showing team page");
+      showTeamImages();
+    });
+  }
+
+  // Right accordion button - shows products page images
+  if (rightButton) {
+    rightButton.addEventListener("click", () => {
+      console.log("Right accordion button clicked - showing products page");
+      showProductsImages();
+    });
+  }
+}
+
+// Function to show team images
+function showTeamImages() {
+  let teamImage = document.querySelector(".imageContainer img:first-child");
+  let productsImage = document.querySelector(".imageContainer img:last-child");
+  
+  if (teamImage) {
+    teamImage.classList.remove("w3-hide");
+    console.log("Team image shown");
+  }
+  if (productsImage) {
+    productsImage.classList.add("w3-hide");
+    console.log("Products image hidden");
+  }
+}
+
+// Function to show products images
+function showProductsImages() {
+  let teamImage = document.querySelector(".imageContainer img:first-child");
+  let productsImage = document.querySelector(".imageContainer img:last-child");
+  
+  if (teamImage) {
+    teamImage.classList.add("w3-hide");
+    console.log("Team image hidden");
+  }
+  if (productsImage) {
+    productsImage.classList.remove("w3-hide");
+    console.log("Products image shown");
+  }
+}
 
